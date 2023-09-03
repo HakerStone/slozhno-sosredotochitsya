@@ -51,19 +51,19 @@
     --bg-image: url(../images/cover-image-light.png);;
   }
 
-.theme_auto .header__decorative-element {
+.header__decorative-element {
   display: none;
 }
 
-.theme_auto .header__subtitle {
+.header__subtitle {
   color: var(--text-color, #353430);
 }
 
-.theme_auto .content__title {
+.content__title {
   color: var(--text-color, #353430);
 }
 
-.theme_auto .content__text-block-title {
+.content__text-block-title {
   color: var(--text-color, #353430);
 }
 }

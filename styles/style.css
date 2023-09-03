@@ -1,5 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: var(--main-font, monospace);
@@ -50,7 +49,7 @@
   inset-inline-end: 39px;
   inset-block-start: 11px;
   color: var(--decorative-color, #ff0070);
-  line-height: 138.889%;
+  line-height: 1.38889;
   text-transform: uppercase;
   display: flex;
 }
@@ -82,7 +81,11 @@
 .header__theme-menu-button {
   padding: 0 0.72em;
   border: 1px solid transparent;
+  background-color: transparent;
+  appearance: none;
 }
+
+/**/
 
 .header__theme-menu-button_active {
   border: 1px solid var(--decorative-color, #ff0070);
@@ -110,6 +113,9 @@
 .content {
   padding: 0 10px;
 }
+
+/*состояние ссылок*/
+
 
 .content__section {
   margin-block-end: 50px;
