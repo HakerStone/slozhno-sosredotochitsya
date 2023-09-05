@@ -57,7 +57,7 @@ button:focus {
 }
 
 button:focus-visible {
-  border-block-end: 1px solid var(--decorative-color, #f1b2ce);
+  border-block-end: 1px solid var(--decorative-color, #ff0070);
 }
 
 a {
